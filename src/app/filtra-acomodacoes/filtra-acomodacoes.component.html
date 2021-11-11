@@ -1,3 +1,4 @@
 <p>Menu de Filtro</p>
 
-<form [formGroup] = 'checkoutformlocal'> <div> <label for = "local">Localização</label> <input id = "local" type= "text" name= "local" #local/></div> <button class="button"></button> </form>
+<form [formGroup] = "checkoutformlocal" (ngSubmit)= "onSubmit()"> <div> <label for = "local">Localização</label> <input id = "local" type= "text" name= "local" #local/></div> <button class="button"></button> </form> 
+
