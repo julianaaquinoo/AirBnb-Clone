@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'filtrar',
+  selector: 'app-filtrar',
   templateUrl: './filtrar.component.html',
   styleUrls: ['./filtrar.component.css']
 })
 export class FiltrarComponent {
-
+ constructor() {}
 }
+
