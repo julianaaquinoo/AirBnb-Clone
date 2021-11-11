@@ -8,7 +8,7 @@ import { Router } from "@angular/router";
 })
 export class FiltrarComponent {
 
-showMenu(){this.route.navigate(['filter'])}
+showMenu(){this.route.navigate(['/filter'])}
 
  constructor(private route: Router ) {}
 }

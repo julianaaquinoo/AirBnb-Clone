@@ -9,12 +9,12 @@ import { FormBuilder } from '@angular/forms';
 export class FiltraAcomodacoesComponent implements OnInit {
 
 
-  checkoutformlocal = this.formbuilder.group({local:'',});
+  checkoutForm = this.formbuilder.group({local:'',});
 
   constructor(private formbuilder:FormBuilder) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
-onSubmit(): void {}
+onSubmit(): void {this.checkoutForm.reset()}
 
 }
