@@ -1,9 +1,6 @@
 <a [routerLink]="['/']">
-  <h1>Menu Principal</h1>
+  <h1>My Store</h1>
 </a>
+<a class = "button fancy-button"> </a>
 
-<a [routerLink]="['/filter']" class="button fancy-button">
-  <i class="material-icons">Filtrar</i>
-</a>
-
-<button (click) = "showMenu()"></button>
+<button [routerLink]="['/filter']" (click)="showMenu()">Filter</button> 
