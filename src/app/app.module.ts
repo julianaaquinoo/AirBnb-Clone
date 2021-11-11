@@ -5,8 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { AcomodacaoListComponent } from './acomodacoes-list.component/acomodacoes-list';
-
+import { AcomodacaoListComponent } from './acomodacoes-list.component/acomodacoes-list.component';
 
 
 @NgModule({
