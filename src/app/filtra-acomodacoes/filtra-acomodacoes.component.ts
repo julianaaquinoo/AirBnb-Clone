@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-filtra-acomodacoes',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FiltraAcomodacoesComponent implements OnInit {
 
-  constructor() { }
+  checkoutformlocal = this.formbuilder.group({local:'',});
+
+  constructor(private formbuilder:FormBuilder) {}
 
   ngOnInit() {
   }
