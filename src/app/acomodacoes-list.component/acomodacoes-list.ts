@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Acomodacao, acomodacoes } from '../acomodacoes';
+import { acomodacoes } from '../acomodacoes';
 
 @Component({
   selector: 'app-acomodacoes-list',
