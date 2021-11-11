@@ -15,6 +15,6 @@ export class FiltraAcomodacoesComponent implements OnInit {
 
   ngOnInit() {
   }
-onSubmit(): void(){}
+onSubmit(): void {}
 
 }
