@@ -5,7 +5,7 @@ export interface Acomodacao {
 
 
   id: number;
-  tipo: TipoAcomodacao;
+  tipo: String;
   capacidade: number;
   localizacao: String;
   permiteanimais: boolean;
@@ -16,7 +16,7 @@ export interface Acomodacao {
 
 export const acomodacoes = [
 
-{id: 1, tipo:TipoAcomodacao.CASA, capacidade: 13, localizacao: "New york", permiteanimais: true, temestacionamento: true,}
+{id: 1, tipo:"CASA", capacidade: 13, localizacao: "New york", permiteanimais: true, temestacionamento: true,}
 
 
 ]
