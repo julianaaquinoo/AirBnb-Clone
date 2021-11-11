@@ -12,7 +12,7 @@ import { FiltraAcomodacoesComponent } from './filtra-acomodacoes/filtra-acomodac
 
 
 @NgModule({
-  imports:      [ BrowserModule,  FormsModule,RouterModule.forRoot ([{path:'',component:AcomodacaoListComponent}, {path: '/filter', component:FiltraAcomodacoesComponent}]) ],
+  imports:      [ BrowserModule,  FormsModule,RouterModule.forRoot ([{path:'',component:AcomodacaoListComponent}, {path: 'filter', component:FiltraAcomodacoesComponent}]) ],
   declarations: [ AppComponent, HelloComponent, AcomodacaoListComponent, FiltrarComponent,FiltraAcomodacoesComponent ],
   bootstrap:    [ AppComponent ], 
   
