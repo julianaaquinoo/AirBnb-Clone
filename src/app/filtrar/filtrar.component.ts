@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-filtrar',
@@ -6,6 +7,11 @@ import { Component } from "@angular/core";
   styleUrls: ['./filtrar.component.css']
 })
 export class FiltrarComponent {
- constructor() {}
+
+showMenu(){this.route.navigate(['filter'])}
+
+ constructor(private route: Router ) {}
 }
+
+
 
