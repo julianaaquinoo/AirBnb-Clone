@@ -10,7 +10,7 @@ import { AcomodacaoListComponent } from './acomodacoes-list.component/acomodacoe
 
 @NgModule({
   imports:      [ BrowserModule,  FormsModule,RouterModule.forRoot ([{path:'',component:AcomodacaoListComponent}]) ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, AcomodacaoListComponent, ],
   bootstrap:    [ AppComponent ], 
   
 })
