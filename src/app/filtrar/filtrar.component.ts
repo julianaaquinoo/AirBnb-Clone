@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'filtrar-bar',
+  selector: 'filtrar',
   templateUrl: './filtrar.component.html',
   styleUrls: ['./filtrar.component.css']
 })
